@@ -6,10 +6,23 @@ body
     font-size: x-large;
 }
 
+p
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+li
+{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+}
+
 button
 {
     font-family: "Barlow Condensed";
-    font-size: large;
     font-weight: bold;
     border-radius: 5px;
     padding: 10px;
@@ -40,9 +53,19 @@ div#buttons
     display: flex;
     justify-content: space-around;
     padding-bottom: 20px;
+    font-size: x-large;
 }
 
 img
 {
     width: 80%;
+}
+
+.ind
+{
+    margin-bottom: 24px;
+}
+.back
+{
+    margin-top: 40px;
 }
